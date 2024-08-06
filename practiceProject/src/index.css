@@ -1,0 +1,102 @@
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.navbar1{
+    width: 100%;
+    display: flex;
+    padding: 15px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+}
+.navbar1 .orange-title{
+    color: orangered;
+}
+
+.right-btn{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.right-btn .count{
+    background-color: orange;
+    padding: 4px 11px;
+    border-radius: 50px;
+}
+
+
+.right-btn h3, .right-btn h4{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.card-main {
+    width: 15vw;
+    height: 7vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+}
+.card-main h2, .card-main h3{
+    color: black;
+}
+.card-main h2{
+    font-size: 20px;
+}
+.card-main h3{
+    font-size: 16px;
+}
+.card-main .btn1{
+    background-color: orangered;
+    padding: 9px;
+    border-radius: 50px;
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.card-main .btn2{
+    background-color: rgb(1, 126, 180);
+    padding: 9px;
+    border-radius: 50px;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.mid-div{
+    padding: 60px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
